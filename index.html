@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Store Skopje</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+
+</head>
+<body>
+
+<header>
+    <a href="index.html">
+        <img src="/images/logo-homestore.png" alt="logo-image" height="100">
+    </a>
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <div class="dropdown">
+            <button class="dropbtn">products</button>
+            <div class="dropdown-content">
+                <a href="#">soaps</a>
+                <a href="#">moisturizers</a>
+                <a href="#">shampoos</a>
+            </div>
+        </div>
+        <a href="contact.html">contact us</a>
+    </nav>
+
+    <div class="icons">
+        <a href="#" class="fas fa-user"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+    <div id="menu-bar" class="fas fa-bars"></div>
+</header>
+<section class="home" id="home">
+
+    <div class="slide-container active">
+        <div class="slide">
+            <div class="content">
+                <h3>Organic All Natural</h3>
+                <h3>Home Made Products</h3>
+                <a href="#" class="btn">see more</a>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <h3>New Arrivals</h3>
+                <h3>Soaps</h3>
+                
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <h3>50% OFF Producs</h3>
+                <h3>moisturizers</h3>
+                
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+    <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+
+</section>
+
+<section class="products" id="products">
+
+    <h1 class="heading"> our <span>products</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/soap-7.png" alt="">
+            <div class="content">
+                <h3>lavender soap</h3>
+                <div class="price">$10</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/soap-2.png" alt="">
+            <div class="content">
+                <h3>rose soap</h3>
+                
+                <div class="price">$12</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/soap3.png" alt="">
+            <div class="content">
+                <h3>marigold сoap</h3>
+        
+                <div class="price">$12</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/soap-5.png" alt="">
+            <div class="content">
+                <h3>coconut soap</h3>
+        
+                <div class="price">$12</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/soap-6.png" alt="">
+            <div class="content">
+                <h3>charcoal soap</h3>
+                <div class="price">$7</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/soap-4.png" alt="">
+            <div class="content">
+                <h3>heart soap</h3>
+                <div class="price">$5</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+        
+        <div class="box">
+            <h3>our stores</h3>
+            <a href="contact.html">bitola</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <div class="inline-elements">
+            <a href="https://www.facebook.com/Home-Store-Skopje-968159320042372/"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/home_store_skopje/"><i class="fab fa-instagram-square"></i></a>
+            
+        
+            </div>
+            </div>
+        
+
+        <div class="credit"><span>&copy;2021</span> | all rights reserved</div>
+
+    </div>
+
+</section>
+<script src="script.js"></script>
+    
+</body>
+</html>
